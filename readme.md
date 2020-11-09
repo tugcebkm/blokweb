@@ -73,7 +73,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -responsive-
 
-**Je opdracht:** -https://www.my-jewellery.com/-
+**Je opdracht:** -https://nl.myprotein.com/-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/screenshot2.PNG" width="375px" alt="product pagina">
+<img src="images/screenshot2.PNG" width="375px" alt="pagina eiwitten">
