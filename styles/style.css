@@ -1,5 +1,121 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;
 }
 
+/*Font*/
+form, input, #zoek {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+/* Header */
+#logo {
+  position: absolute;
+  align-items: center;
+  margin-left: auto;
+  left: 35%;
+  top: 1em;
+}
+
+#menu, #hart, #winkelmand {
+  position: relative;
+  align-items: center;
+  margin-left: auto;
+  top: .5em;
+}
+
+#menu {
+  left: .5em;
+}
+
+#hart {
+  left: 70%;
+}
+
+#winkelmand {
+  left: 75%;
+}
+
+/* Zoekbalk */
+form, input, #zoek {
+  position: absolute;
+  align-items: center;
+}
+
+form {
+  position: relative;
+  background-color: #F5F6F4;
+  margin: 0;
+  padding: .5em;
+  border-radius: .2em;
+  top: 2em;
+  left: .5em;
+  width: 24em;
+}
+
+input {
+  position: relative;
+  background-color: #F5F6F4;
+  border-style: none;
+}
+
+#zoek {
+  position: relative;
+  align-items: center;
+  margin-left: auto;
+  top: .5em;
+  color: #F5F6F4;
+}
+
+/* Section 1 */
+section {
+  display: block;
+}
+#foto1 {
+  position: relative;
+  align-items: center;
+  margin-left: auto;
+  top: 3em;
+  height: 100%;
+}
+
+h1, h2, h3 {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  text-align: right;
+  color: white;
+  margin: 0;
+  padding: .5em;
+}
+
+h1 {
+  font-family: 'Roboto bold', sans-serif;
+  font-size: 40px;
+  bottom: 10em;
+
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  bottom: 17em;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  bottom: 22em;
+}
+
+/*section2*/
+p {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  z-index: 20px;
+}
