@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-dit ging goed & dit was lastig- <br>
 De header tot het eerste section ging het opzicht prima. Echter heb ik nog
 vragen over hoe ik het beste kan werken met de sections en hoe ik ze goed onder
 elkaar krijg.
