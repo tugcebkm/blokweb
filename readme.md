@@ -45,10 +45,10 @@ elkaar krijg.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
-<img src="images/screenshot3.PNG" width="375px" alt="pagina1">
-<img src="images/screenshot4.PNG" width="375px" alt="html">
-<img src="images/screenshot5.PNG" width="375px" alt="css">
+-screenshot(s) van hoe ver je bent met korte uitleg-<br>
+<img src="images/screenshot3.PNG" width="375px" alt="pagina1"><br>
+<img src="images/screenshot4.PNG" width="375px" alt="html"><br>
+<img src="images/screenshot5.PNG" width="375px" alt="css"><br>
 Ik ben een beetje aan het uitzoeken hoe ik de sections moet opstellen, hiermee
 bedoel ik hoe ik het goed onderelkaar krijg en of ik gewoon moet werken met top
 en bottom.
