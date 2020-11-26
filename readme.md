@@ -47,7 +47,6 @@ elkaar krijg.
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 <img src="images/screenshot3.PNG" width="375px" alt="pagina1">
-Ik heb de header en de eerste section af.
 <img src="images/screenshot4.PNG" width="375px" alt="html">
 <img src="images/screenshot5.PNG" width="375px" alt="css">
 Ik ben een beetje aan het uitzoeken hoe ik de sections moet opstellen, hiermee
