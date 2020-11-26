@@ -39,10 +39,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+De header tot het eerste section ging het opzicht prima. Echter heb ik nog
+vragen over hoe ik het beste kan werken met de sections en hoe ik ze goed onder
+elkaar krijg.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/screenshot3.PNG" width="375px" alt="pagina1">
+Ik heb de header en de eerste section af.
+<img src="images/screenshot4.PNG" width="375px" alt="html">
+<img src="images/screenshot5.PNG" width="375px" alt="css">
+Ik ben een beetje aan het uitzoeken hoe ik de sections moet opstellen, hiermee
+bedoel ik hoe ik het goed onderelkaar krijg en of ik gewoon moet werken met top
+en bottom.
+
+
 
 ### Agenda voor meeting
 
