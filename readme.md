@@ -35,6 +35,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 1 (week 3)
+Mijn code was niet helemaal correct opgebouwd blijkbaar. Sam vertelde dat ik een UL van mijn navigatie kon maken en in mijn CSS alle left
+en top kan weghalen. Ook dat ik bij de foto's geen position relative hoef te zetten. Ook had ik nog geen header in mijn body.
+Na het aanpassen van alle notities die ik had gemaakt na het gesprek, klopte mijn code niet meer en zag alles er raar uit. Ik had de oude code niet meer
+dus heb wel geprobeerd alles een beetje terug te zetten.
 
 ### Stand van zaken
 
