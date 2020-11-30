@@ -9,6 +9,10 @@ form, input, #zoek {
 }
 
 /* Header */
+body {
+margin: 1em;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -21,6 +25,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 }
+
 
 img {
   justify-content: space-between;
@@ -41,7 +46,6 @@ form, input, #zoek {
 
 form {
   background-color: #F5F6F4;
-  margin: 0;
   padding: .5em;
   border-radius: .2em;
   width: 24em;
@@ -62,13 +66,18 @@ section {
   position: relative;
 }
 
+#hoofdfoto {
+  height: 400px;
+  width: 100%;
+}
+
 #section1h1, #section1h2, #section1h3 {
-  text-align: right;
+  text-align: center;
 }
 
 #section1h1 {
   font-family: 'Roboto bold', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
 
 }
 
