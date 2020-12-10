@@ -1,5 +1,10 @@
-/* CSS Document */*, *::after, *::before {
+/* CSS Document */
+*, *::after, *::before {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*Font*/
@@ -10,27 +15,73 @@ form, input, #zoek {
 
 /* Header */
 body {
-margin: 1em;
+  margin: 0 1em;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+header>button,
+header a {
+  width: 1.5em;
+  background-color: transparent;
+  text-indent: -666em;
+  height: 1.5em;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+header>button {
+  background-image: url('../images/menu.png');
+  background-size: cover;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1em;
+}
+
+header ul li a {
+  background-color: transparent;
+  background-size: cover;
+
+}
+
+header ul li:nth-of-type(1) a {
+  background-image: url('../images/logo.png');
+  width: 96px;
+}
+
+header ul li:nth-of-type(2) a {
+  background-image: url('../images/hart.png');
+
+}
+
+header ul li:nth-of-type(3) a {
+  background-image: url('../images/winkelmand.png');
+
 }
 
 div {
-position: absolute;
-justify-content: space-between;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  position: absolute;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 
 img {
   justify-content: space-between;
 }
-
 
 /* tekst */
 h1, h2, h3, p {
@@ -38,8 +89,8 @@ h1, h2, h3, p {
   font-size: 30px;
   color: black;
 }
-/* Zoekbalk */
 
+/* Zoekbalk */
 form, input, #zoek {
   align-items: center;
 }
@@ -48,7 +99,9 @@ form {
   background-color: #F5F6F4;
   padding: .5em;
   border-radius: .2em;
-  width: 24em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  justify-content: space-between;
 }
 
 input {
@@ -78,7 +131,6 @@ section {
 #section1h1 {
   font-family: 'Roboto bold', sans-serif;
   font-size: 30px;
-
 }
 
 #section1h2 {
@@ -93,18 +145,14 @@ section {
 }
 
 /*section2*/
-
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: black;
 }
 
-
-#favorieten
-{
+#favorieten {
   font-family: 'Roboto bold', sans-serif;
   font-size: 20px;
   color: black;
-
 }

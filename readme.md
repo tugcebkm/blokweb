@@ -32,6 +32,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+### Stand van zaken
+
+-dit ging goed & dit was lastig- <br>
+Na de les van vorige week ben ik niet veel verder gekomen. Wel heeft het enorm geholpen toen Joost
+ging meekijken en de code kon aanpassen met hulp. De website is nu, voor zo ver er op staat, relative.
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-<br>
+<img src="images/screenshot6.PNG" width="375px" alt="html"><br>
+<img src="images/screenshot7.PNG" width="375px" alt="css"><br>
+<img src="images/screenshot8.PNG" width="375px" alt="css2"><br>
+<img src="images/screenshot9.PNG" width="375px" alt="homepage"><br>
+
+
+
+
 
 
 ## Voortgang 1 (week 3)
