@@ -24,13 +24,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig- <br>
+Ik heb wat meer content toegevoegd aan de website. Ik krijg het logo niet in het midden en ook zien de bovenste icoontjes er nog een beetje gek uit. Verder heb ik geprobeerd en draggable click slider te maken, ook is dit nog niet helemaal gelukt.
+En de eerste image is ook niet meer helemaal responsive.
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-<br>
+<img src="images/screenshot10.PNG" width="375px" alt="smallscreen"><br>
+<img src="images/screenshot11.PNG" width="375px" alt="responsive"><br>
+<img src="images/screenshot12.PNG" width="375px" alt="draggable click slider"><br>
+<img src="images/screenshot13.PNG" width="375px" alt="draggable click slider html"><br>
+
 
 
 
 ## Voortgang 2 (week 5)
-
--same as voortgang 1-
+Ik was er nog niet helemaal uitgekomen met de code nadat ik heel veel dingen heb moeten verwijderen uit de css. Tijdens de les ga ik om hulp vragen hierover.
 
 ### Stand van zaken
 
