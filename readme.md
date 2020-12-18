@@ -31,10 +31,10 @@ En de eerste image is ook niet meer helemaal responsive.
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-<br>
-<img src="images/screenshot10.PNG" width="375px" alt="smallscreen"><br>
-<img src="images/screenshot11.PNG" width="375px" alt="responsive"><br>
-<img src="images/screenshot12.PNG" width="375px" alt="draggable click slider"><br>
-<img src="images/screenshot13.PNG" width="375px" alt="draggable click slider html"><br>
+<img src="images/screenshot10.png" width="375px" alt="smallscreen"><br>
+<img src="images/screenshot11.png" width="375px" alt="responsive"><br>
+<img src="images/screenshot12.png" width="375px" alt="draggable click slider"><br>
+<img src="images/screenshot13.png" width="375px" alt="draggable click slider html"><br>
 
 
 
