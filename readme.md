@@ -8,7 +8,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.made.com/nl/
 2. https://cssreference.io/
-3. -...-
+3. https://css-tricks.com/css-only-carousel/
+4. https://css-tricks.com/responsive-images-css/
+5. https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
 
 
 
