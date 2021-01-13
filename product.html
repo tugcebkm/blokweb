@@ -30,89 +30,73 @@
 
 	</header>
 
+
 	<!-- zoekbalk -->
 	<form action="result.html" method="get">
 		<input type="search" name="Zoeken" placeholder="Zoeken" />
 		<input id="zoek" type="submit" name="submit" value="Zoeken" />
 	</form>
 
-	<!-- section 1 hoofdfoto-->
+
+	<!-- section 1 slider -->
 	<section>
-		<img id="hoofdfoto" src="images/foto1.jpg" alt="foto bank">
-		<div id="divsection1">
-			<h1 id="section1h1">Een en al rondingen</h1>
-			<h2 id="section1h2">In vorm voor de winter</h2>
-			<a id="shopnu">Shop nu</a>
-		</div>
-	</section>
 
-	<!-- section 2 de favorieten slider -->
-	<section>
-		<div class="slider-product">
-			<a href="#slide1"></a>
-			<a href="#slide2"></a>
-			<a href="#slide3"></a>
-			<a href="#slide4"></a>
-			<a href="#slide5"></a>
-			<h2 id="favorieten">Onze favorieten </h2>
+		<div>
 
-
-			<div class="slides">
-
-				<div>
-					<article>
-						<a href=product.html>
-							<img src="images/slide1.jpeg" alt="masako">
-						</a>
-						<h3>Masako kroonluchter hanglamp, <br> rookglas en opaalglas <br> 169€ </h3>
-					</article>
-				</div>
-
-				<div>
-					<article>
-						<img src="images/slide2.jpeg" alt="dion">
-						<h3>Dion 3-zitsbank, lichtroze fluweel <br> met messing frame <br> 1.299€ </h3>
-					</article>
-				</div>
-
-				<div>
-					<article>
-						<img src="images/slide3.jpeg" alt="ebro">
-						<h3>Ebro, brede ladekast, grijs <br> 649€ </h3>
-					</article>
-				</div>
-
-				<div>
-					<article>
-						<img src="images/slide4.jpeg" alt="delia">
-						<h3>Delia kingsizebed, warm karamel <br> fluweel <br> 649€ </h3>
-					</article>
-				</div>
-
-				<div>
-					<article>
-						<img src="images/slide5.jpeg" alt="echo">
-						<h3>Echo vrijstaande ovalen gepoedercoate <br> plantenstandaard, zwart en metallic goud <br> 119€ </h3>
-					</article>
-				</div>
-
+			<div class="slides-product">
+				<img id="slides-foto1" src="images/masako1.jpg" alt="masko1">
 			</div>
+			<div class="slides-product">
+				<img id="slides-foto2" src="images/masako2.jpeg" alt="masko2">
+			</div>
+
+			<div class="slides-product">
+				<img id="slides-foto3" src="images/masako3.jpeg" alt="masko3">
+			</div>
+
+			<div class="slides-dot">
+				<span class="dot" onclick="huidigeSlide(1)"></span>
+				<span class="dot" onclick="huidigeSlide(2)"></span>
+				<span class="dot" onclick="huidigeSlide(3)"></span>
+			</div>
+
 		</div>
 	</section>
 
-	<!-- section 3 artikel over dineravonden -->
+
+
+	<!-- section 2 product info -->
+
 	<section>
 		<article>
-			<img id="dineren" src="images/foto2.jpg" alt="dineren">
-			<h2>Diner avonden</h2>
-			<p>Klaar voor een nieuw soort dineren? Onze nieuwe serviezen van dit seizoen
-				zijn ontworpen om veelzijdig te zijn, waar niets bij elkaar hoeft te passen,
-				maar alles mag.</p>
-			<p>Shop nu</p>
+
+			<h1>Masako</h1>
+			<h3>Masako kroonluchter, LED, champagnekleurig en opaalglas</h3>
+			<h2>€ 169</h2>
+
+			<input id="nuKopen" type="submit" name="submit" value="Nu kopen" />
+		</article>
+
+		<article class="light">
+			<h1>Led there be light</h1>
+			<p>De Masako lamp is slim gemaakt. Het binnenste deel is matglas – het buitenste is rookglas met champange-achtige tint. De organische vormen geven een Scandinavische gevoel,. Pefect voor een rustige, zen-achtige sfeer. Plus, de LED lampen gaan
+				lang mee, dus je hoeft voorlopig geen peertjes meer om te wisselen.
+			</p>
+
+		</article>
+
+		<article>
+			<img id="teamFoto" src="images/madeteam.jpeg" alt="Team Made">
+			<h1>Ontworpen door MADE Studio
+			</h1>
+			<p>MADE Studio is ons eigen designteam: een zorgvuldig samengestelde groep van internationaal, creatief talent. Samen met onze externe partners bedenken zij originele MADE-designs voor je interieur. Dankzij hen kunnen we allemaal genieten van
+				geweldige designs zonder het designprijskaartje</p>
 		</article>
 	</section>
 
-	<!-- section 4 nieuwsbrief -->
+
+
+	<!-- section 3 nieuwsbrief -->
 	<section>
 		<article>
 			<form id="nieuwsbrief" action="send.html" method="get">
@@ -125,7 +109,9 @@
 		</article>
 	</section>
 
-	<!-- section 5 footer -->
+
+
+	<!-- section 4 footer -->
 	<section>
 		<div>
 			<details>
@@ -173,11 +159,13 @@
 			</details>
 		</div>
 	</section>
-
 	<section>
 		<img id="trustpilot" src="images/trustpilot.png" alt="trustpilot">
 		<img id="appstore" src="images/appstore.png" alt="appstore">
 		<img id="socialmedia" src="images/socialmedia.png" alt="socialmedia">
+
+
+
 	</section>
 
 

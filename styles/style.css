@@ -9,6 +9,25 @@ form, input, #zoek {
   font-size: 1em;
 }
 
+/* tekst */
+h1, h2 {
+  font-family: 'Rozha One', serif;
+  font-size: 1.5em;
+  color: black;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: black;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: black;
+}
+
 /* Header */
 body {
   margin: 0 1em;
@@ -51,6 +70,7 @@ header ul li a {
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
+  text-decoration: none;
 }
 
 #logo {
@@ -76,18 +96,9 @@ header ul li:nth-of-type(2) a {
   transform: translate(-50%, -50%);
 }
 
-/* tekst */
-h1, h2, h3, p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  color: black;
-}
-
 /* Zoekbalk */
 form, input, #zoek {
   align-items: center;
-  background-image: url('../images/zoek.png')
-  background-position: 10px 10px;
   z-index: 10;
 }
 
@@ -110,21 +121,13 @@ input {
   color: #F5F6F4;
 }
 
-#zoekimg {
-  width: 20px;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  background-size: cover;
-}
-
 /* Section 1 */
 section {
   position: relative;
 }
 
 #hoofdfoto {
-  height: 400px;
+  height: 30em;
   width: 100%;
   object-fit: cover;
 }
@@ -132,29 +135,23 @@ section {
 #section1h1, #section1h2, #shopnu {
   text-align: left;
   color: white;
-  align-items: left;
-  letter-spacing: 0.5px;
 }
 
 #section1h1 {
-  font-family: 'Roboto bold', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #section1h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
 }
 
 #shopnu {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
   text-decoration: underline;
 }
 
 /*section2*/
 div article {
-  padding: auto;
   margin: 0 1.5em 0 0;
 }
 
@@ -162,18 +159,14 @@ h3 {
   font-size: 1em;
 }
 
-.slider {
-  width: 100%;
-}
 
 .slides {
   display: flex;
   /*Zorgt ervoor dat het slide*/
   overflow-x: auto;
-  //-webkit-overflow-scrolling: touch;
 }
 
-img {
+.slides img {
   object-fit: cover;
   height: 15em;
   width: 15em;
@@ -181,7 +174,7 @@ img {
 
 /*section3*/
 #dineren {
-  height: 400px;
+  height: 30em;
   width: 100%;
   object-fit: cover;
 }
@@ -198,7 +191,6 @@ img {
 
 #nieuwsbrief {
   align-items: center;
-  background-position: 10px 10px;
   padding-left: 1.5em;
   background-color: #EFEEE6;
   border-radius: .2em;
@@ -214,7 +206,6 @@ img {
   height: 3em;
   width: 100%;
   text-align: center;
-
 }
 
 #verzenden {
@@ -226,45 +217,71 @@ img {
 }
 
 /*section5*/
-.dropButton{
-  background: orange;
+summary {
+  font-family: 'Roboto', sans-serif;
   width: 100%;
   padding: .5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-style: none;
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  margin-bottom: .5em;
 }
 
-.dropdown {
-  position: relative;
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+#trustpilot, #appstore, #socialmedia {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 15em;
+  padding: 1em;
+}
+
+/*                        PRODUCT PAGINA                     */
+/* Slider */
+#slides-foto1, #slides-foto2, #slides-foto3 {
+  height: 25em;
+  width: 100%;
+  max-width: 50em;
+  object-fit: cover;
+}
+
+.dot {
+  background-color: lightgrey;
+  height: .5em;
+  width: .5em;
+  margin: .5em;
+  border-radius: 50%;
   display: inline-block;
 }
 
-.dropTekst {
-  display: none;
-  position: absolute;
-  background-color: green;
-  min-width: 160px;
+.slides-dot {
+  text-align: center;
 }
 
-/* Links in de dropdown */
-.dropTekst a {
-  font-size: 1em;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  display: block;
+.active {
+  background-color: black;
 }
 
-.dropTekst a:hover {
-  background-color: #red
+/* Nu kopen button */
+#nuKopen {
+  background-color: black;
+  color: white;
+  height: 3em;
+  width: 100%;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.light {
+  margin-top: 1em;
+  padding: .5em 1em 1em .5em;
+  background-color: #F5F6F4;
+  text-align: left;
 }
 
-.dropdown:hover .dropButton {
-  background-color: pink;
+/* Over de team*/
+#teamFoto {
+  height: 20em;
+  width: 100%;
+  object-fit: cover;
 }
