@@ -1,6 +1,7 @@
 // JavaScript Document
 
-//Slider product pagina//
+//Slider product pagina //
+//op welke foto hij begint, daar staat de 1 voor
 var slideIndex = 1;
 sliderFoto(slideIndex);
 
