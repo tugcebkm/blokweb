@@ -22,7 +22,7 @@ Tijdens de vakantie heb ik aan de website gezeten en vond de volgende dingen las
 1.Ik kreeg het logo niet gecentreerd, omdat hij nog in de UL zat.<br>
 2.De icoontjes (favoriet en winkelmand) zagen er niet uit zoals ik het wilde. Dit is opgelost door background-size: contain (ipv cover) <br>te gebruiken, en dan background-repeat: no-repeat.<br>
 3.De nieuwsbrief input responsive krijgen.<br>
-4.Dropdown in de footer was nogal lastig, maar ik kreeg de tip om <details> te gebruiken hiervoor.<br>
+4.Dropdown in de footer was nogal lastig, maar ik kreeg de tip om Details te gebruiken hiervoor.<br>
 
 Bij de bovenstaande vragen heb ik ook nog hulp gehad van Sam.<br>
 
