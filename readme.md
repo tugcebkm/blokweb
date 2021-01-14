@@ -17,16 +17,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
-\-dit ging goed & dit was lastig-
-Tijdens de vakantie heb ik aan de website gezeten en vond de volgende dingen lastig:
-\-Ik kreeg het logo niet gecentreerd, omdat hij nog in de UL zat.
-\-De icoontjes (favoriet en winkelmand) zagen er niet uit zoals ik het wilde. Dit is opgelost door background-size: contain (ipv cover) te gebruiken, en dan background-repeat: no-repeat.
-\-De nieuwsbrief input responsive krijgen.
-\-Dropdown in de footer was nogal lastig, maar ik kreeg de tip om <details> te gebruiken hiervoor.
+\-dit ging goed & dit was lastig-<br>
+Tijdens de vakantie heb ik aan de website gezeten en vond de volgende dingen lastig:<br>
+1.Ik kreeg het logo niet gecentreerd, omdat hij nog in de UL zat.<br>
+2.De icoontjes (favoriet en winkelmand) zagen er niet uit zoals ik het wilde. Dit is opgelost door background-size: contain (ipv cover) <br>te gebruiken, en dan background-repeat: no-repeat.<br>
+3.De nieuwsbrief input responsive krijgen.<br>
+4.Dropdown in de footer was nogal lastig, maar ik kreeg de tip om <details> te gebruiken hiervoor.<br>
 
-Bij de bovenstaande vragen heb ik ook nog hulp gehad van Sam.
+Bij de bovenstaande vragen heb ik ook nog hulp gehad van Sam.<br>
 
-Het maken van de productpagina in tegenstelling van de index ging veel sneller en makkelijker, omdat ik alles zo'n beetje al had gehad op de homepage en dit makkelijk kon toepassen.
+Het maken van de productpagina in tegenstelling van de index ging veel sneller en makkelijker, <br>omdat ik alles zo'n beetje al had gehad op de homepage en dit makkelijk kon toepassen.
 
 **Screenshot(s):**
 
