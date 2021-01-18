@@ -237,6 +237,27 @@ a {
   padding: 1em;
 }
 
+
+
+/* footer grid */
+
+.grid-wrapper
+{
+  max-width: : 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  grid-column-gap: 1em;
+}
+
+.grid {
+background-color: pink;
+padding: 1em;
+}
+
+.grid:nth-child(even){
+  background-color: orange;
+}
+
 /*                        PRODUCT PAGINA                     */
 /* section 1 slider */
 #slides-foto1, #slides-foto2, #slides-foto3 {
