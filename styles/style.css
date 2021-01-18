@@ -28,6 +28,7 @@ p {
   color: black;
 }
 
+
 /* Header */
 body {
   margin: 0 1em;
@@ -201,10 +202,12 @@ h3 {
 #emailForm {
   background-color: transparent;
   border: black solid 2pt;
-  display: flex;
   height: 3em;
-  width: 100%;
+  width: 30em;
+  max-width: 100%;
   text-align: center;
+  align-items: center;
+  display: inline;
 }
 
 #verzenden {
@@ -213,6 +216,25 @@ h3 {
   border-style: none;
   padding: 1em;
   margin: 1em;
+}
+
+
+.grid-wrapper-nieuwsbrief{
+  align-items: center;
+  padding-left: 1.5em;
+  background-color: #EFEEE6;
+  border-radius: .2em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  display: absolute;
+
+  max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    grid-column-gap: 1em;
+
 }
 
 /* section 5 footer */
@@ -243,7 +265,7 @@ a {
 
 .grid-wrapper
 {
-  max-width: : 100%;
+max-width: : 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   grid-column-gap: 1em;
@@ -257,6 +279,16 @@ padding: 1em;
 .grid:nth-child(even){
   background-color: orange;
 }
+
+//@media (max-width:720px){
+  .grid{
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+
 
 /*                        PRODUCT PAGINA                     */
 /* section 1 slider */
