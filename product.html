@@ -15,194 +15,218 @@
 	<link href="styles/style.css" rel="stylesheet">
 </head>
 
+<!-- Menu -->
+<!-- Bron hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP -->
+
 <body>
 
-
-	<!-- Menu -->
 	<header>
-		<button> menu </button>
+		<nav>
+      <div id="toggleHamburger">
+
+        <input type="checkbox" id="checkboxLabel" />
+        <label for="checkboxLabel">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul id="hamburger">
+
+          <li><a  href="#"> Sale </a> </li>
+          <li><a  href="#"> Banken </a> </li>
+          <li><a  href="#"> Fauteuils </a> </li>
+          <li><a  href="#"> Stoelen </a> </li>
+          <li><a  href="#"> Tafels </a> </li>
+          <li><a  href="#"> Kasten </a> </li>
+          <li><a  href="#"> Bedden </a> </li>
+
+        </ul>
+      </div>
+    </nav>
+
 		<a id="logo" href="index.html">Made</a>
 		<nav>
 			<ul>
-				<li><a href="#">Favorieten</a></li>
-				<li><a href="#">Winkelmand</a></li>
+				<li><a id="favorieten" href="#">Favorieten</a></li>
+				<li><a id="winkelmand" href="#">Winkelmand</a></li>
 			</ul>
 		</nav>
-
 	</header>
 
-<main>
-	<!-- zoekbalk -->
-	<form action="result.html" method="get">
-		<input type="search" name="Zoeken" placeholder="Zoeken" />
-		<input id="zoek" type="submit" name="submit" value="Zoeken" />
-	</form>
+	<main>
+		<!-- zoekbalk -->
+		<form action="result.html" method="get">
+			<input type="search" name="Zoeken" placeholder="Zoeken" />
+			<input id="zoek" type="submit" name="submit" value="Zoeken" />
+		</form>
 
 
-	<!-- section 2 product informatie	-->
+		<!-- section 2 product informatie	-->
 
-	<section>
-		<div class="grid-wrapper-masako">
-			<div class="grid-masako">
+		<section>
+			<div class="grid-wrapper-masako">
+				<div class="grid-masako">
 
-				<section id="slides-Foto" class="grid-wrapper-product" aria-label="dots" tabIndex="-1">
-					<ul>
-						<li id="foto1"><img src="images/masako1.jpg" alt="masko1" /></li>
-						<li id="foto2"><img src="images/masako2.jpeg" alt="masko2" /></li>
-						<li id="foto3"><img src="images/masako3.jpeg" alt="masko3" /></li>
-					</ul>
-
-					<nav>
+					<section id="slides-Foto" class="grid-wrapper-product" aria-label="dots" tabIndex="-1">
 						<ul>
-							<li><a href="#foto1" aria-label="go to foto1"></a></li>
-							<li><a href="#foto2" aria-label="go to foto2"></a></li>
-							<li><a href="#foto3" aria-label="go to foto3"></a></li>
+							<li id="foto1"><img src="images/masako1.jpg" alt="masko1" /></li>
+							<li id="foto2"><img src="images/masako2.jpeg" alt="masko2" /></li>
+							<li id="foto3"><img src="images/masako3.jpeg" alt="masko3" /></li>
 						</ul>
-					</nav>
-				</section>
+
+						<nav>
+							<ul>
+								<li><a href="#foto1" aria-label="go to foto1"></a></li>
+								<li><a href="#foto2" aria-label="go to foto2"></a></li>
+								<li><a href="#foto3" aria-label="go to foto3"></a></li>
+							</ul>
+						</nav>
+					</section>
+
+
+				</div>
+
+				<div class="grid-masako">
+					<h1>Masako</h1>
+					<h3>Masako kroonluchter, LED, champagnekleurig en opaalglas</h3>
+					<h2>€ 169</h2>
+					<p>De Masako lamp is slim gemaakt. Het binnenste deel is matglas – het buitenste is rookglas met champange-achtige tint. De organische vormen geven een Scandinavische gevoel,. Pefect voor een rustige, zen-achtige sfeer. Plus, de LED lampen
+						gaan lang mee, dus je hoeft voorlopig geen peertjes meer om te wisselen.</p>
+
+					<input id="nuKopen" type="submit" name="submit" value="Nu kopen" />
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- section 3 informatie over de MadeTeam-->
+		<section>
+			<div class="grid-wrapper-team">
+
+
+				<div class="grid-team">
+					<img id="teamFoto" src="images/madeteam.jpeg" alt="Team Made">
+
+				</div>
+
+				<div class="grid-team">
+					<h1>Ontworpen door MADE Studio
+					</h1>
+					<p>MADE Studio is ons eigen designteam: een zorgvuldig samengestelde groep van internationaal, creatief talent. Samen met onze externe partners bedenken zij originele MADE-designs voor je interieur. Dankzij hen kunnen we allemaal genieten
+						van
+						geweldige designs zonder het designprijskaartje</p>
+				</div>
 
 
 			</div>
+		</section>
 
-			<div class="grid-masako">
-				<h1>Masako</h1>
-				<h3>Masako kroonluchter, LED, champagnekleurig en opaalglas</h3>
-				<h2>€ 169</h2>
-				<p>De Masako lamp is slim gemaakt. Het binnenste deel is matglas – het buitenste is rookglas met champange-achtige tint. De organische vormen geven een Scandinavische gevoel,. Pefect voor een rustige, zen-achtige sfeer. Plus, de LED lampen
-					gaan lang mee, dus je hoeft voorlopig geen peertjes meer om te wisselen.</p>
 
-				<input id="nuKopen" type="submit" name="submit" value="Nu kopen" />
+		<!-- section 4 nieuwsbrief -->
+		<section>
+			<div class="grid-wrapper-nieuwsbrief">
+
+
+				<div class="grid-nieuwsbrief">
+					<h2 id="nieuwsbriefH2">Onze nieuwsbrief, schrijf je in en krijg €15 korting</h2>
+					<p id="nieuwsbriefP"> We sturen je een e-mail met een kortingscode ter waarde van € 15 te gebruiken bij je eerste bestelling vanaf € 100. Door je in te schrijven, ga je akkoord met onze Algemene voorwaarden , Privacy en Cookiebeleid.
+					</p>
+				</div>
+
+				<div class="grid-nieuwsbrief">
+
+					<form>
+						<input id="emailForm" type="email" name="email" placeholder="Vul je e-mail hier in" />
+						<input id="verzenden" type="submit" name="submit" value="verzenden" />
+					</form>
+				</div>
+
+
 			</div>
-
-		</div>
-	</section>
-
-
-	<!-- section 3 informatie over de MadeTeam-->
-	<section>
-		<div class="grid-wrapper-team">
-
-
-			<div class="grid-team">
-				<img id="teamFoto" src="images/madeteam.jpeg" alt="Team Made">
-
-			</div>
-
-			<div class="grid-team">
-				<h1>Ontworpen door MADE Studio
-				</h1>
-				<p>MADE Studio is ons eigen designteam: een zorgvuldig samengestelde groep van internationaal, creatief talent. Samen met onze externe partners bedenken zij originele MADE-designs voor je interieur. Dankzij hen kunnen we allemaal genieten van
-					geweldige designs zonder het designprijskaartje</p>
-			</div>
-
-
-		</div>
-	</section>
-
-
-	<!-- section 4 nieuwsbrief -->
-	<section>
-		<div class="grid-wrapper-nieuwsbrief">
-
-
-			<div class="grid-nieuwsbrief">
-				<h2 id="nieuwsbriefH2">Onze nieuwsbrief, schrijf je in en krijg €15 korting</h2>
-				<p id="nieuwsbriefP"> We sturen je een e-mail met een kortingscode ter waarde van € 15 te gebruiken bij je eerste bestelling vanaf € 100. Door je in te schrijven, ga je akkoord met onze Algemene voorwaarden , Privacy en Cookiebeleid.
-				</p>
-			</div>
-
-			<div class="grid-nieuwsbrief">
-
-				<form>
-					<input id="emailForm" type="email" name="email" placeholder="Vul je e-mail hier in" />
-					<input id="verzenden" type="submit" name="submit" value="verzenden" />
-				</form>
-			</div>
-
-
-		</div>
-	</section>
+		</section>
 	</main>
 
 
-<footer>
-	<!-- section 5 footer -->
-	<section>
-		<div class="grid-wrapper">
+	<footer>
+		<!-- section 5 footer -->
+		<section>
+			<div class="grid-wrapper">
 
-			<div class="grid">
-				<details>
-					<summary>Over ons</summary>
-					<ul class="dropdown">
-						<li> <a href="#">Ons bedrijf</a> </li>
-						<li> <a href="#">Onze designers</a> </li>
-						<li> <a href="#">Onze showroom</a> </li>
-						<li> <a href="#">The apartment</a> </li>
-						<li> <a href="#">Ervaringen van klanten</a> </li>
-					</ul>
-				</details>
+				<div class="grid">
+					<details>
+						<summary>Over ons</summary>
+						<ul class="dropdown">
+							<li> <a href="#">Ons bedrijf</a> </li>
+							<li> <a href="#">Onze designers</a> </li>
+							<li> <a href="#">Onze showroom</a> </li>
+							<li> <a href="#">The apartment</a> </li>
+							<li> <a href="#">Ervaringen van klanten</a> </li>
+						</ul>
+					</details>
+				</div>
+
+				<div class="grid">
+					<details>
+						<summary>Hoe we kunnen helpen</summary>
+						<ul>
+							<li> <a href="#">Volg je bestelling</a> </li>
+							<li> <a href="#">Veelgestelde vragen</a> </li>
+							<li> <a href="#">Contact</a> </li>
+							<li> <a href="#">Bezorging</a> </li>
+							<li> <a href="#">Retourzending en terugbetaling</a> </li>
+						</ul>
+					</details>
+				</div>
+
+				<div class="grid">
+					<details>
+						<summary>Kom bij ons werken</summary>
+						<ul>
+							<li> <a href="#">Vacatures</a> </li>
+							<li> <a href="#">Zakelijk</a> </li>
+						</ul>
+					</details>
+				</div>
+
+				<div class="grid">
+					<details>
+						<summary>Shop op ruimte</summary>
+						<ul>
+							<li> <a href="#">Woonkamermeubels</a> </li>
+							<li> <a href="#">Eetkamermeubels</a> </li>
+							<li> <a href="#">Keukenmeubels</a> </li>
+							<li> <a href="#">Slaapkamermeubels</a> </li>
+							<li> <a href="#">Badkamermeubels</a> </li>
+							<li> <a href="#"></a>Kantoormeubels</li>
+							<li> <a href="#">Meubels in de hal</a> </li>
+							<li> <a href="#">Tuinmeubles</a> </li>
+						</ul>
+					</details>
+				</div>
 			</div>
+		</section>
 
-			<div class="grid">
-				<details>
-					<summary>Hoe we kunnen helpen</summary>
-					<ul>
-						<li> <a href="#">Volg je bestelling</a> </li>
-						<li> <a href="#">Veelgestelde vragen</a> </li>
-						<li> <a href="#">Contact</a> </li>
-						<li> <a href="#">Bezorging</a> </li>
-						<li> <a href="#">Retourzending en terugbetaling</a> </li>
-					</ul>
-				</details>
+
+
+		<!-- section 6 Appstore, socialmedia etc in de footer -->
+		<section>
+			<div class="grid-wrapper-socialmedia">
+				<div class="grid-socialmedia">
+					<img id="trustpilot" src="images/trustpilot.png" alt="trustpilot">
+				</div>
+
+				<div class="grid-socialmedia">
+					<img id="appstore" src="images/appstore.png" alt="appstore">
+				</div>
+
+				<div class="grid-socialmedia">
+					<img id="socialmedia" src="images/socialmedia.png" alt="socialmedia">
+				</div>
+
 			</div>
-
-			<div class="grid">
-				<details>
-					<summary>Kom bij ons werken</summary>
-					<ul>
-						<li> <a href="#">Vacatures</a> </li>
-						<li> <a href="#">Zakelijk</a> </li>
-					</ul>
-				</details>
-			</div>
-
-			<div class="grid">
-				<details>
-					<summary>Shop op ruimte</summary>
-					<ul>
-						<li> <a href="#">Woonkamermeubels</a> </li>
-						<li> <a href="#">Eetkamermeubels</a> </li>
-						<li> <a href="#">Keukenmeubels</a> </li>
-						<li> <a href="#">Slaapkamermeubels</a> </li>
-						<li> <a href="#">Badkamermeubels</a> </li>
-						<li> <a href="#"></a>Kantoormeubels</li>
-						<li> <a href="#">Meubels in de hal</a> </li>
-						<li> <a href="#">Tuinmeubles</a> </li>
-					</ul>
-				</details>
-			</div>
-	</div>
-	</section>
-
-
-
-	<!-- section 6 Appstore, socialmedia etc in de footer -->
-	<section>
-		<div class="grid-wrapper-socialmedia">
-			<div class="grid-socialmedia">
-				<img id="trustpilot" src="images/trustpilot.png" alt="trustpilot">
-			</div>
-
-			<div class="grid-socialmedia">
-				<img id="appstore" src="images/appstore.png" alt="appstore">
-			</div>
-
-			<div class="grid-socialmedia">
-				<img id="socialmedia" src="images/socialmedia.png" alt="socialmedia">
-			</div>
-
-		</div>
-	</section>
+		</section>
 	</footer>
 
 	<script src="scripts/script.js"></script>

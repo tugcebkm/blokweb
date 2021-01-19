@@ -15,27 +15,32 @@
   <link href="styles/style.css" rel="stylesheet">
 </head>
 
+<!-- Menu -->
+<!-- Bron hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP -->
 
 <body>
-  <!-- Menu -->
+
   <header>
-    <nav role="navigatie">
+    <nav>
       <div id="toggleHamburger">
 
-        <input type="checkbox" />
-
-        <span></span>
-        <span></span>
-        <span></span>
+        <input type="checkbox" id="checkboxLabel" />
+        <label for="checkboxLabel">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
 
         <ul id="hamburger">
-          <a href="#"><li>Sale</li></a>
-          <a href="#"><li>Banken</li></a>
-          <a href="#"><li>Fauteuils</li></a>
-          <a href="#"><li>Stoelen</li></a>
-          <a href="#"><li>Tafels</li></a>
-          <a href="#"><li>Kasten</li></a>
-          <a href="#"><li>Bedden</li></a>
+
+          <li><a  href="#"> Sale </a> </li>
+          <li><a  href="#"> Banken </a> </li>
+          <li><a  href="#"> Fauteuils </a> </li>
+          <li><a  href="#"> Stoelen </a> </li>
+          <li><a  href="#"> Tafels </a> </li>
+          <li><a  href="#"> Kasten </a> </li>
+          <li><a  href="#"> Bedden </a> </li>
+
         </ul>
       </div>
     </nav>
@@ -49,203 +54,208 @@
     </nav>
   </header>
 
+  <main>
+    <!-- zoekbalk -->
+    <form action="result.html" method="get">
+      <input type="search" name="Zoeken" placeholder="Zoeken" />
+      <input id="zoek" type="submit" name="submit" value="Zoeken" />
+    </form>
 
-  <!-- zoekbalk -->
-  <form action="result.html" method="get">
-    <input type="search" name="Zoeken" placeholder="Zoeken" />
-    <input id="zoek" type="submit" name="submit" value="Zoeken" />
-  </form>
-
-<main>
-  <!-- section 1 hoofdfoto-->
-  <section>
-    <img id="hoofdfoto" src="images/foto1.jpg" alt="foto bank">
-    <div id="divsection1">
-      <h1 id="section1h1">Een en al rondingen</h1>
-      <h2 id="section1h2">In vorm voor de winter</h2>
-      <a id="shopnu">Shop nu</a>
-    </div>
-  </section>
+    <!-- section 1 hoofdfoto-->
+    <section>
+      <img id="hoofdfoto" src="images/foto1.jpg" alt="foto bank">
+      <div id="divsection1">
+        <h1 id="section1h1">Een en al rondingen</h1>
+        <h2 id="section1h2">In vorm voor de winter</h2>
+        <a id="shopnu">Shop nu</a>
+      </div>
+    </section>
 
 
-  <!-- section 2 de favorieten slider -->
-  <section>
-    <div class="slider-product">
-      <a href="#slide1"></a>
-      <a href="#slide2"></a>
-      <a href="#slide3"></a>
-      <a href="#slide4"></a>
-      <a href="#slide5"></a>
-      <h2 id="favorieten">Onze favorieten </h2>
+    <!-- section 2 de favorieten slider -->
+    <section>
+      <div class="slider-product">
+        <a href="#slide1"></a>
+        <a href="#slide2"></a>
+        <a href="#slide3"></a>
+        <a href="#slide4"></a>
+        <a href="#slide5"></a>
+        <h2>Onze favorieten </h2>
 
-      <div class="slides">
+        <div class="slides">
 
-        <div>
-          <article>
-            <a href=product.html>
-              <img src="images/slide1.jpeg" alt="masako">
-            </a>
-            <h3>Masako kroonluchter hanglamp, <br> rookglas en opaalglas <br> 169€ </h3>
-          </article>
+          <div>
+            <article>
+              <a href=product.html>
+                <img src="images/slide1.jpeg" alt="masako">
+              </a>
+              <h3>Masako kroonluchter hanglamp, <br> rookglas en opaalglas <br> €169 </h3>
+            </article>
+          </div>
+
+          <div>
+            <article>
+              <img src="images/slide2.jpeg" alt="dion">
+              <h3>Dion 3-zitsbank, lichtroze fluweel <br> met messing frame <br> €1.299 </h3>
+            </article>
+          </div>
+
+          <div>
+            <article>
+              <img src="images/slide3.jpeg" alt="ebro">
+              <h3>Ebro, brede ladekast, grijs <br> €649 </h3>
+            </article>
+          </div>
+
+          <div>
+            <article>
+              <img src="images/slide4.jpeg" alt="delia">
+              <h3>Delia kingsizebed, warm karamel <br> fluweel <br> €649 </h3>
+            </article>
+          </div>
+
+          <div>
+            <article>
+              <img src="images/slide5.jpeg" alt="echo">
+              <h3>Echo vrijstaande ovalen gepoedercoate <br> plantenstandaard, zwart en metallic goud <br> €119</h3>
+            </article>
+          </div>
+
+          <div>
+            <article>
+              <img src="images/slide6.jpeg" alt="Mogen">
+              <h3>Mogen hoekslaapbank met hoek rechts, met <br> opbergruimte, warm karamel fluweel <br> €1.049 </h3>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- section 3 artikel over dineravonden -->
+
+    <section>
+      <div class="grid-wrapper-dineren">
+        <div class="grid-dineren">
+          <img id="dineren" src="images/foto2.jpg" alt="dineren">
+
         </div>
 
-        <div>
-          <article>
-            <img src="images/slide2.jpeg" alt="dion">
-            <h3>Dion 3-zitsbank, lichtroze fluweel <br> met messing frame <br> 1.299€ </h3>
-          </article>
-        </div>
-
-        <div>
-          <article>
-            <img src="images/slide3.jpeg" alt="ebro">
-            <h3>Ebro, brede ladekast, grijs <br> 649€ </h3>
-          </article>
-        </div>
-
-        <div>
-          <article>
-            <img src="images/slide4.jpeg" alt="delia">
-            <h3>Delia kingsizebed, warm karamel <br> fluweel <br> 649€ </h3>
-          </article>
-        </div>
-
-        <div>
-          <article>
-            <img src="images/slide5.jpeg" alt="echo">
-            <h3>Echo vrijstaande ovalen gepoedercoate <br> plantenstandaard, zwart en metallic goud <br> 119€ </h3>
-          </article>
+        <div class="grid-dineren">
+          <h2>Diner avonden</h2>
+          <p>Klaar voor een nieuw soort dineren? Onze nieuwe serviezen van dit seizoen
+            zijn ontworpen om veelzijdig te zijn, waar niets bij elkaar hoeft te passen,
+            maar alles mag.</p>
         </div>
 
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  <!-- section 3 artikel over dineravonden -->
+    <!-- section 4 nieuwsbrief -->
+    <section>
+      <div class="grid-wrapper-nieuwsbrief">
 
-  <section>
-    <div class="grid-wrapper-dineren">
-      <div class="grid-dineren">
-        <img id="dineren" src="images/foto2.jpg" alt="dineren">
+
+        <div class="grid-nieuwsbrief">
+          <h2 id="nieuwsbriefH2">Onze nieuwsbrief, schrijf je in en krijg €15 korting</h2>
+          <p id="nieuwsbriefP"> We sturen je een e-mail met een kortingscode ter waarde van € 15 te gebruiken bij je eerste bestelling vanaf € 100. Door je in te schrijven, ga je akkoord met onze Algemene voorwaarden , Privacy en Cookiebeleid.
+          </p>
+        </div>
+
+        <div class="grid-nieuwsbrief">
+
+          <form>
+            <input id="emailForm" type="email" name="email" placeholder="Vul je e-mail hier in" />
+            <input id="verzenden" type="submit" name="submit" value="verzenden" />
+          </form>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- section 5 footer -->
+    <section>
+      <div class="grid-wrapper">
+
+        <div class="grid">
+          <details>
+            <summary>Over ons</summary>
+            <ul class="dropdown">
+              <li> <a href="#">Ons bedrijf</a> </li>
+              <li> <a href="#">Onze designers</a> </li>
+              <li> <a href="#">Onze showroom</a> </li>
+              <li> <a href="#">The apartment</a> </li>
+              <li> <a href="#">Ervaringen van klanten</a> </li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="grid">
+          <details>
+            <summary>Hoe we kunnen helpen</summary>
+            <ul>
+              <li> <a href="#">Volg je bestelling</a> </li>
+              <li> <a href="#">Veelgestelde vragen</a> </li>
+              <li> <a href="#">Contact</a> </li>
+              <li> <a href="#">Bezorging</a> </li>
+              <li> <a href="#">Retourzending en terugbetaling</a> </li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="grid">
+          <details>
+            <summary>Kom bij ons werken</summary>
+            <ul>
+              <li> <a href="#">Vacatures</a> </li>
+              <li> <a href="#">Zakelijk</a> </li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="grid">
+          <details>
+            <summary>Shop op ruimte</summary>
+            <ul>
+              <li> <a href="#">Woonkamermeubels</a> </li>
+              <li> <a href="#">Eetkamermeubels</a> </li>
+              <li> <a href="#">Keukenmeubels</a> </li>
+              <li> <a href="#">Slaapkamermeubels</a> </li>
+              <li> <a href="#">Badkamermeubels</a> </li>
+              <li> <a href="#"></a>Kantoormeubels</li>
+              <li> <a href="#">Meubels in de hal</a> </li>
+              <li> <a href="#">Tuinmeubles</a> </li>
+            </ul>
+          </details>
+        </div>
 
       </div>
 
-      <div class="grid-dineren">
-        <h2>Diner avonden</h2>
-        <p>Klaar voor een nieuw soort dineren? Onze nieuwe serviezen van dit seizoen
-          zijn ontworpen om veelzijdig te zijn, waar niets bij elkaar hoeft te passen,
-          maar alles mag.</p>
-        <p>Shop nu</p>
+    </section>
+
+
+    <!-- section 6 Appstore, socialmedia etc in de footer -->
+    <section>
+      <div class="grid-wrapper-socialmedia">
+        <div class="grid-socialmedia">
+          <img id="trustpilot" src="images/trustpilot.png" alt="trustpilot">
+        </div>
+
+        <div class="grid-socialmedia">
+          <img id="appstore" src="images/appstore.png" alt="appstore">
+        </div>
+
+        <div class="grid-socialmedia">
+          <img id="socialmedia" src="images/socialmedia.png" alt="socialmedia">
+        </div>
+
       </div>
-
-    </div>
-  </section>
-
-
-  <!-- section 4 nieuwsbrief -->
-  <section>
-    <div class="grid-wrapper-nieuwsbrief">
-
-
-      <div class="grid-nieuwsbrief">
-        <h2 id="nieuwsbriefH2">Onze nieuwsbrief, schrijf je in en krijg €15 korting</h2>
-        <p id="nieuwsbriefP"> We sturen je een e-mail met een kortingscode ter waarde van € 15 te gebruiken bij je eerste bestelling vanaf € 100. Door je in te schrijven, ga je akkoord met onze Algemene voorwaarden , Privacy en Cookiebeleid.
-        </p>
-      </div>
-
-      <div class="grid-nieuwsbrief">
-
-        <form>
-          <input id="emailForm" type="email" name="email" placeholder="Vul je e-mail hier in" />
-          <input id="verzenden" type="submit" name="submit" value="verzenden" />
-        </form>
-      </div>
-
-
-    </div>
-  </section>
-</main>
-
-<footer>
-  <!-- section 5 footer -->
-  <section>
-    <div class="grid-wrapper">
-
-      <div class="grid">
-        <details>
-          <summary>Over ons</summary>
-          <ul class="dropdown">
-            <li> <a href="#">Ons bedrijf</a> </li>
-            <li> <a href="#">Onze designers</a> </li>
-            <li> <a href="#">Onze showroom</a> </li>
-            <li> <a href="#">The apartment</a> </li>
-            <li> <a href="#">Ervaringen van klanten</a> </li>
-          </ul>
-        </details>
-      </div>
-
-      <div class="grid">
-        <details>
-          <summary>Hoe we kunnen helpen</summary>
-          <ul>
-            <li> <a href="#">Volg je bestelling</a> </li>
-            <li> <a href="#">Veelgestelde vragen</a> </li>
-            <li> <a href="#">Contact</a> </li>
-            <li> <a href="#">Bezorging</a> </li>
-            <li> <a href="#">Retourzending en terugbetaling</a> </li>
-          </ul>
-        </details>
-      </div>
-
-      <div class="grid">
-        <details>
-          <summary>Kom bij ons werken</summary>
-          <ul>
-            <li> <a href="#">Vacatures</a> </li>
-            <li> <a href="#">Zakelijk</a> </li>
-          </ul>
-        </details>
-      </div>
-
-      <div class="grid">
-        <details>
-          <summary>Shop op ruimte</summary>
-          <ul>
-            <li> <a href="#">Woonkamermeubels</a> </li>
-            <li> <a href="#">Eetkamermeubels</a> </li>
-            <li> <a href="#">Keukenmeubels</a> </li>
-            <li> <a href="#">Slaapkamermeubels</a> </li>
-            <li> <a href="#">Badkamermeubels</a> </li>
-            <li> <a href="#"></a>Kantoormeubels</li>
-            <li> <a href="#">Meubels in de hal</a> </li>
-            <li> <a href="#">Tuinmeubles</a> </li>
-          </ul>
-        </details>
-      </div>
-
-    </div>
-
-  </section>
-
-
-  <!-- section 6 Appstore, socialmedia etc in de footer -->
-  <section>
-    <div class="grid-wrapper-socialmedia">
-      <div class="grid-socialmedia">
-        <img id="trustpilot" src="images/trustpilot.png" alt="trustpilot">
-      </div>
-
-      <div class="grid-socialmedia">
-        <img id="appstore" src="images/appstore.png" alt="appstore">
-      </div>
-
-      <div class="grid-socialmedia">
-        <img id="socialmedia" src="images/socialmedia.png" alt="socialmedia">
-      </div>
-
-    </div>
-  </section>
+    </section>
   </footer>
 
 
