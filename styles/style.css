@@ -29,151 +29,97 @@ p {
 }
 
 /*hamburger */
+.checkboxHamburger1{
+width: 10em;
+}
 
-#menuToggle
-{
+#toggleHamburger {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
-  color: purple;
-
-  z-index: 20;
-
-  -webkit-user-select: none;
-  user-select: none;
+  left: 1em;
+  z-index: 30;
 }
 
-#menuToggle a
-{
+#toggleHamburger a {
   text-decoration: none;
-  color: pink;
-
-  transition: color 0.3s ease;
+  color: black;
 }
 
-#menuToggle a:hover
-{
-  color: tomato;
+#toggleHamburger a:hover {
+  color: grey;
 }
 
-
-#menuToggle input
-{
+#toggleHamburger input {
   display: block;
-  width: 40px;
-  height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
-
-  cursor: pointer;
-
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-
+  width: 1em;
+  top: -0.3em;
+  left: -0.3em;
+  opacity: 0;
+  z-index: 2;
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
+#toggleHamburger span {
   display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
+  width: 1.5em;
+  height: .2em;
+  margin-bottom: .2em;
   position: relative;
-
-  background: green;
-  border-radius: 3px;
-
+  background: black;
+  border-radius: 1em;
   z-index: 30;
-
-  transform-origin: 4px 0px;
-
+  transform-origin: 0.1em 0;
 }
 
-#menuToggle span:first-child
-{
+#toggleHamburger span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#toggleHamburger span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
+#toggleHamburger input:checked~span {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(-0.2em, -0.1em);
   background: black;
 }
 
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#toggleHamburger input:checked~span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
+#toggleHamburger input:checked~span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -0.1em);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
+#hamburger {
+  display: block;
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-
-  background: orange;
+  width: 20em;
+  height: 45em;
+  margin: -5em 0 0 -4em;
+  padding: 3em;
+  padding-top: 7em;
+  background: #F8F8F8;
   list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
+
+#hamburger li {
+  padding: .5em 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
 }
 
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
+#toggleHamburger input:checked~ul {
   transform: none;
 }
-
-
-
-
-
 
 /* Header */
 body {
@@ -184,23 +130,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header>button,
-header a {
-  width: 1.5em;
-  background-color: transparent;
-  text-indent: -666em;
-  height: 1.5em;
-  border: none;
-  display: block;
-  text-decoration: none;
-}
-
-header>button {
-  background-image: url('../images/menu.png');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 header ul {
@@ -225,6 +154,21 @@ header ul li a {
   background-size: cover;
   height: 2em;
   width: 8em;
+  background-color: transparent;
+  text-indent: -666em;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+#winkelmand, #favorieten {
+  width: 1.5em;
+  background-color: transparent;
+  text-indent: -666em;
+  height: 1.5em;
+  border: none;
+  display: block;
+  text-decoration: none;
 }
 
 header ul li:nth-of-type(1) a {
@@ -427,7 +371,6 @@ h3 {
   padding: 1em;
 }
 
-
 /* section 5 footer // socialmedia */
 summary {
   font-family: 'Roboto', sans-serif;
@@ -464,12 +407,9 @@ a {
   padding: 1em;
 }
 
-
 /*                        PRODUCT PAGINA                     */
-
 /* section 1 slider
 bron: https://codepen.io/shooft/pen/ZEpXmrg */
-
 .grid-wrapper-product {
   --grid-wrapper-productMainColor: grey;
   --grid-wrapper-productAccentColor: black;
