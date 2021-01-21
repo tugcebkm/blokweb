@@ -30,76 +30,103 @@ p {
 
 /*hamburger */
 /*bron: https://codepen.io/shooft/pen/jOMOroZ */
-
-/* de button */
 button {
-  position:relative;
-  width:2em; height:2em;
-  margin:0; padding:0;
-  font-size:1em;
-  appearance:none;
-  border:none;
-  background-color:white;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  position: relative;
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  appearance: none;
+  border: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 520;
 }
 
-/* de streepjes */
 button span {
-  position:absolute;
-  width:1.5em; height: .1em;
-  background-color:Black;
-  transition:0.3s;
+  position: absolute;
+  width: 1.5em;
+  height: .1em;
+  background-color: Black;
+  transition: 0.3s;
+  z-index: 520;
 }
 
 button span:first-of-type {
-  transform:translatey(-5px);
+  transform: translatey(-5px);
+  z-index: 520;
 }
+
 button span:last-of-type {
-  transform:translatey(5px);
+  transform: translatey(5px);
+  z-index: 520;
 }
 
 body.kruisje button span {
-  background-color:black;
-  transition:0.3s;
+  background-color: black;
+  transition: 0.3s;
+  z-index: 520;
 }
 
 body.kruisje button span:first-of-type {
-  transform:translatey(0) rotate(45deg);
+  transform: translatey(0) rotate(45deg);
+  z-index: 520;
 }
 
 body.kruisje button span:nth-of-type(2) {
-  opacity:0;
+  opacity: 0;
+  z-index: 520;
 }
 
 body.kruisje button span:last-of-type {
-  transform:translatey(0) rotate(-45deg);
+  transform: translatey(0) rotate(-45deg);
+  z-index: 520;
 }
 
 .hamburger {
   display: none;
 }
 
-.showMenu {
+.showMenu nav div ul {
   display: block;
   position: absolute;
-  width: 10em;
+  width: 16em;
   height: 150em;
-  margin: -5em 0 0 -4em;
-  padding: 3em;
-  padding-top: 7em;
-  background: #F8F8F8;
+  margin: -4em 0 0 -1em;
+  padding: 2em;
+  padding-top: 6em;
+  background: white;
   list-style-type: none;
+  z-index: 400;
 }
 
 .hamburger li {
   padding: .5em 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
+  padding-bottom: .5em;
 }
 
+.hamburger li a {
+  color: black;
+}
 
+.hamburger li a:hover {
+  color: pink;
+  font-size: 1.2em;
+}
+
+@media (min-width:45em) {
+  .hamburger li {
+    padding: .5em 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: .5em;
+  }
+}
 
 /* Header */
 body {
@@ -128,6 +155,7 @@ header ul {
   border: none;
   display: block;
   text-decoration: none;
+  margin-left: 2em;
 }
 
 #winkelmand, #favorieten {
@@ -186,7 +214,6 @@ input {
   color: #EFEEE6;
 }
 
-
 /* section 1 hoofdfoto */
 section {
   position: relative;
@@ -195,7 +222,7 @@ section {
 #hoofdfoto {
   height: 40em;
   width: 100%;
-object-fit: cover;
+  object-fit: cover;
 }
 
 @media (max-width:45em) {
@@ -205,7 +232,6 @@ object-fit: cover;
   }
 }
 
-
 #section1h1, #section1h2, #shopnu {
   text-align: left;
   color: white;
@@ -213,7 +239,7 @@ object-fit: cover;
 
 @media (min-width:45em) {
   #section1h1, #section1h2, #shopnu {
-font-size: 2em;
+    font-size: 2em;
   }
 }
 
@@ -225,7 +251,6 @@ font-size: 2em;
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;
 }
-
 
 /* section 2 de favorieten slider */
 div article {
@@ -540,7 +565,7 @@ bron: https://codepen.io/shooft/pen/ZEpXmrg */
   grid-column-gap: 1em;
   margin-top: 3em;
   margin-bottom: 3em;
-background-color: #F8F8F8
+  background-color: #F8F8F8
 }
 
 @media (max-width:45em) {

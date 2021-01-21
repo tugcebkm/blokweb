@@ -10,7 +10,7 @@ document.body.classList.toggle("showMenu");
 }
 
 /////Menu hamburger //////
-//bron: https://codepen.io/shooft/pen/jOMOroZ
+//bron: https: //codepen.io/shooft/pen/jOMOroZ
 var hamburger = document.querySelector("button");
 
 hamburger.addEventListener("click", menuKruisje);

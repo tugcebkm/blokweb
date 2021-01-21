@@ -19,6 +19,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 11. <https://www.youtube.com/watch?v=br-0i3U1VCA>
 12. <https://codepen.io/shooft/pen/jOMOroZ>
 
+## herkansing (week 9)
+
+\-dit ging goed & dit was lastig-<br>
+Er moesten nog een aantal dingen aangepast worden zoals het responsive maken <br>
+van de website en ervoor zorgen dat er ook een fold out menu komt.Het was <br>
+lastiger dan ik dacht maar uiteindelijk toch gelukt.  
+
+**Screenshot(s):**
+
+<img src="images/Screenshot18.png" width="375px"><br>
+<img src="images/Screenshot19.png" width="375px"><br>
+<img src="images/Screenshot20.png" width="375px"><br>
+<img src="images/Screenshot21.png" width="375px"><br>
+<img src="images/Screenshot22.png" width="375px"><br>
+
+
+
 ## Eindgesprek (week 7/8)
 
 \-dit ging goed & dit was lastig-<br>
