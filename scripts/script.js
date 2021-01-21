@@ -1,14 +1,24 @@
 // JavaScript Document
 
+/////Menu hide & show //////
+var menu = document.querySelector("button");
+
+menu.addEventListener("click", openMenu);
+
+function openMenu(){
+document.body.classList.toggle("showMenu");
+}
+
 /////Menu hamburger //////
 //bron: https://codepen.io/shooft/pen/jOMOroZ
 var hamburger = document.querySelector("button");
 
-hamburger.addEventListener("click", menuOpenen);
+hamburger.addEventListener("click", menuKruisje);
 
-function menuOpenen() {
+function menuKruisje() {
   document.body.classList.toggle("kruisje");
 }
+
 
 /////Bolletjes Slider //////
 //bron: https://codepen.io/shooft/pen/ZEpXmrg

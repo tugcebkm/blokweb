@@ -77,33 +77,27 @@ body.kruisje button span:last-of-type {
   transform:translatey(0) rotate(-45deg);
 }
 
-#hamburger {
+.hamburger {
+  display: none;
+}
+
+.showMenu {
   display: block;
   position: absolute;
-  width: 20em;
+  width: 10em;
   height: 150em;
   margin: -5em 0 0 -4em;
   padding: 3em;
   padding-top: 7em;
   background: #F8F8F8;
   list-style-type: none;
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 
-#hamburger li {
+.hamburger li {
   padding: .5em 0;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
-
-@media (max-width:45em) {
- #hamburger li {
-font-size: 1em;
-  }
-}
-
 
 
 
