@@ -1,4 +1,16 @@
 // JavaScript Document
+
+/////Menu hamburger //////
+//bron: https://codepen.io/shooft/pen/jOMOroZ
+var hamburger = document.querySelector("button");
+
+hamburger.addEventListener("click", menuOpenen);
+
+function menuOpenen() {
+  document.body.classList.toggle("kruisje");
+}
+
+/////Bolletjes Slider //////
 //bron: https://codepen.io/shooft/pen/ZEpXmrg
 
 function maakProductwrapper(sliderID) {

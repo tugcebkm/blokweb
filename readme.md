@@ -17,7 +17,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 9. <https://thoughtbot.com/blog/concise-media-queries-with-css-grid>
 10. <https://codepen.io/shooft/pen/ZEpXmrg>
 11. <https://www.youtube.com/watch?v=br-0i3U1VCA>
-12. <https://codepen.io/erikterwan/pen/EVzeRP>
+12. <https://codepen.io/shooft/pen/jOMOroZ>
 
 ## Eindgesprek (week 7/8)
 

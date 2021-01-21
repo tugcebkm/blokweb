@@ -29,73 +29,52 @@ p {
 }
 
 /*hamburger */
-/* Bron hamburger menu: https://codepen.io/erikterwan/pen/EVzeRP */
-#toggleHamburger {
-  display: block;
-  position: relative;
-  left: 1em;
-  z-index: 30;
-  -webkit-user-select: none;
-  user-select: none;
+/*bron: https://codepen.io/shooft/pen/jOMOroZ */
+
+/* de button */
+button {
+  position:relative;
+  width:2em; height:2em;
+  margin:0; padding:0;
+  font-size:1em;
+  appearance:none;
+  border:none;
+  background-color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
-#toggleHamburger a {
-  text-decoration: none;
-  color: #585858;
-  transition: color 0.3s ease;
+/* de streepjes */
+button span {
+  position:absolute;
+  width:1.5em; height: .1em;
+  background-color:Black;
+  transition:0.3s;
 }
 
-#toggleHamburger a:hover {
-  color: black;
-  font-size: 1.1em;
+button span:first-of-type {
+  transform:translatey(-5px);
+}
+button span:last-of-type {
+  transform:translatey(5px);
 }
 
-#toggleHamburger input {
-  display: block;
-  position: absolute;
-  width: 1em;
-  top: -0.3em;
-  left: -0.3em;
-  opacity: 0;
-  z-index: 2;
-  -webkit-touch-callout: none;
+body.kruisje button span {
+  background-color:black;
+  transition:0.3s;
 }
 
-#toggleHamburger span {
-  display: block;
-  width: 1.5em;
-  height: .2em;
-  margin-bottom: .2em;
-  position: relative;
-  background: black;
-  border-radius: 1em;
-  z-index: 30;
-  transform-origin: 0.1em 0em;
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-    0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+body.kruisje button span:first-of-type {
+  transform:translatey(0) rotate(45deg);
 }
 
-#toggleHamburger span:first-child {
-  transform-origin: 0% 0%;
+body.kruisje button span:nth-of-type(2) {
+  opacity:0;
 }
 
-#toggleHamburger span:nth-last-child(2) {
-  transform-origin: 0% 100%;
-}
-
-#toggleHamburger input:checked~span {
-  opacity: 1;
-  transform: rotate(45deg) translate(-0.2em, -0.1em);
-  background: black;
-}
-
-#toggleHamburger input:checked~span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-#toggleHamburger input:checked~span:nth-last-child(2) {
-  transform: rotate(-45deg) translate(0, -0.1em);
+body.kruisje button span:last-of-type {
+  transform:translatey(0) rotate(-45deg);
 }
 
 #hamburger {
@@ -125,9 +104,8 @@ font-size: 1em;
   }
 }
 
-#toggleHamburger input:checked~ul {
-  transform: none;
-}
+
+
 
 /* Header */
 body {
@@ -213,6 +191,7 @@ input {
   align-items: center;
   color: #EFEEE6;
 }
+
 
 /* section 1 hoofdfoto */
 section {
