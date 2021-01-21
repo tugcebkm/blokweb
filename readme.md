@@ -28,11 +28,11 @@ lastiger dan ik dacht maar uiteindelijk toch gelukt.
 
 **Screenshot(s):**
 
-<img src="images/Screenshot18.png" width="375px"><br>
-<img src="images/Screenshot19.png" width="375px"><br>
-<img src="images/Screenshot20.png" width="375px"><br>
-<img src="images/Screenshot21.png" width="375px"><br>
-<img src="images/Screenshot22.png" width="375px"><br>
+<img src="images/screenshot18.png" width="375px"><br>
+<img src="images/screenshot19.png" width="375px"><br>
+<img src="images/screenshot20.png" width="375px"><br>
+<img src="images/screenshot21.png" width="375px"><br>
+<img src="images/screenshot22.png" width="375px"><br>
 
 
 
